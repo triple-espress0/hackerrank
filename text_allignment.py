@@ -1,0 +1,1 @@
+'''hackerrank "Text Alignment" challenge '''
