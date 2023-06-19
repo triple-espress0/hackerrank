@@ -18,15 +18,11 @@ def solve(s):
         else:
             s_capitalized = s_capitalized + s[i]
 
-    # s_split = s.split()
-    # s_capitalized = list()
-    # for item in s_split:
-    #     s_capitalized.append(item.capitalize())
     return s_capitalized
 
 
 if __name__ == "__main__":
-    os.environ["OUTPUT_PATH"] = os.getcwd() + "/asd.txt"
+    os.environ["OUTPUT_PATH"] = os.getcwd() + "/foo.txt"
     fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     s = input()
