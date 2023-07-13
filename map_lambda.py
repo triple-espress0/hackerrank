@@ -3,9 +3,15 @@ cube = lambda x: x**3
 
 
 def fibonacci(n):
-    fibs = [0, 1]
-    for i in range(2, n):
-        fibs.append(fibs[-1] + fibs[-2])
+    if n > 1:
+        fibs = [0, 1]
+        for i in range(2, n):
+            fibs.append(fibs[-1] + fibs[-2])
+    elif n == 1:
+        fibs = [0]
+    elif n == 0:
+        fibs = []
+
     return fibs
 
 
